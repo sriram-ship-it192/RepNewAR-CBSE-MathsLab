@@ -15,6 +15,9 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
+env:
+  APP_DIR: RepNewAR-CBSE-MathsLab
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,11 +31,18 @@ jobs:
         with:
           node-version: 24
           cache: npm
+          cache-dependency-path: RepNewAR-CBSE-MathsLab/package-lock.json
 
       - name: Install dependencies
+        working-directory: ${{ env.APP_DIR }}
         run: npm ci
 
+      - name: Verify 26 lessons
+        working-directory: ${{ env.APP_DIR }}
+        run: npm run verify
+
       - name: Build application
+        working-directory: ${{ env.APP_DIR }}
         run: npm run build
 
       - name: Setup GitHub Pages
@@ -41,7 +51,7 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: RepNewAR-CBSE-MathsLab/dist
 
   deploy:
     environment:
@@ -55,4 +65,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        
