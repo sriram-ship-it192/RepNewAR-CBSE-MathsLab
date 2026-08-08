@@ -1,0 +1,21 @@
+REPNEWAR — CBSE MATHS LAB — PROFESSIONAL 26-ACTIVITY BUILD
+
+1. Extract this folder.
+2. Open the folder containing package.json in VS Code.
+3. Open Terminal.
+4. Run:
+   npm install
+   npm run verify
+   npm run dev
+5. Open http://localhost:3000
+6. Allow camera access.
+7. Click Browse Lessons and choose any of the 26 CBSE activities.
+
+The production catalog intentionally contains exactly 26 lessons.
+Legacy/demo lessons are retained in source but are not exposed by the browser.
+
+Physical marker booklet:
+public/physical-kit/CBSE-MathsLab-PROFESSIONAL-26-MARKER-BOOKLET.pdf
+
+Marker family: AprilTag 36h11
+Marker IDs: 1–5

@@ -1,0 +1,9 @@
+{
+  "product": "RepNewAR — CBSE Maths Lab",
+  "release": "Phase 7 — Final Deployment Package",
+  "lessonCount": 26,
+  "markerFamily": "AprilTag 36h11",
+  "cameraModel": "USB webcam via browser MediaDevices API",
+  "runtime": "Vite development server / browser",
+  "physicalAcceptance": "Manual validation required for each real kit"
+}

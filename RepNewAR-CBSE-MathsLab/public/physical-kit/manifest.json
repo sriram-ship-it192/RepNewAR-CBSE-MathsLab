@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "markerFamily": "tag36h11",
+  "markerIds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "lessonCount": 26,
+  "lessons": [
+    "fraction_lab_3_5",
+    "decimal_kit",
+    "fake_money",
+    "rangometry",
+    "training_clock",
+    "sau_rang_khoj",
+    "tessellation",
+    "dienes_blocks",
+    "place_value",
+    "probability_6_8",
+    "fraction_lab_6_8",
+    "triangle_6_8",
+    "integer_board",
+    "unit_cubes_6_8",
+    "geometry_box_6_8",
+    "geoboard",
+    "graph_activity_6_8",
+    "probability_9_10",
+    "mensuration",
+    "measuring_jug",
+    "geometry_box_9_10",
+    "math_models_charts",
+    "graph_isometric",
+    "dice_coins_cards",
+    "conic_sections",
+    "venn_diagrams"
+  ]
+}

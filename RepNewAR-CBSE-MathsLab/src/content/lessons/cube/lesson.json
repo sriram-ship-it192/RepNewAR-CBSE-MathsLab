@@ -1,0 +1,14 @@
+{
+  "id": "cube",
+  "title": "3D Cube Geometry, Volume & Surface Area",
+  "description": "Interactive AR lesson demonstrating 3D cube dimensions, edge measurements, volume calculation (V = L × W × H), and total surface area (SA = 2(LW + LH + WH)).",
+  "supportedMarkerIds": [1, 2, 3, 4, 5, -1],
+  "defaultDimensions": {
+    "length": 0.1,
+    "width": 0.1,
+    "height": 0.1,
+    "unit": "cm",
+    "scaleFactor": 100
+  },
+  "modelPath": "models/cube.glb"
+}

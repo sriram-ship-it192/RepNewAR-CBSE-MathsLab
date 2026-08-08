@@ -1,0 +1,626 @@
+[
+  {
+    "id": "fraction_lab_3_5",
+    "title": "Fraction Kit — Fractions",
+    "category": "CBSE Maths Lab • Classes 3–5",
+    "kind": "fractions",
+    "activity": "1/2 = 2/4 = 4/8",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Whole/base",
+      "1/2 piece",
+      "1/4 piece",
+      "1/8 piece A",
+      "1/8 piece B"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Fraction Kit — Fractions lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "decimal_kit",
+    "title": "Decimal Kit — Tenths & Hundredths",
+    "category": "CBSE Maths Lab • Classes 3–5",
+    "kind": "decimal",
+    "activity": "0.37",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Base",
+      "0.10",
+      "0.01",
+      "0.20",
+      "0.02"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Decimal Kit — Tenths & Hundredths lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "fake_money",
+    "title": "Fake Money Kit — Counting & Change",
+    "category": "CBSE Maths Lab • Classes 3–5",
+    "kind": "money",
+    "activity": "₹126",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Tray/base",
+      "₹10",
+      "₹20",
+      "₹50",
+      "₹100"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Fake Money Kit — Counting & Change lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "rangometry",
+    "title": "Rangometry Kit — Angles",
+    "category": "CBSE Maths Lab • Classes 3–5",
+    "kind": "angle",
+    "activity": "60°",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Pivot",
+      "Moving rod",
+      "Angle reference",
+      "Optional reference",
+      "Optional reference"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Rangometry Kit — Angles lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "training_clock",
+    "title": "Training Clock — Time",
+    "category": "CBSE Maths Lab • Classes 3–5",
+    "kind": "clock",
+    "activity": "10:30",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Clock centre",
+      "Hour hand",
+      "Minute hand",
+      "Reference",
+      "Reference"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Training Clock — Time lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "sau_rang_khoj",
+    "title": "Sau Rang Ki Khoj — Colour Patterns",
+    "category": "CBSE Maths Lab • Classes 3–5",
+    "kind": "pattern",
+    "activity": "A B A B",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Pattern base",
+      "Colour A",
+      "Colour B",
+      "Colour C",
+      "Colour D"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Sau Rang Ki Khoj — Colour Patterns lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "tessellation",
+    "title": "Tessellation Kit — Shapes & Patterns",
+    "category": "CBSE Maths Lab • Classes 3–5",
+    "kind": "tessellation",
+    "activity": "3 shapes • 12 sides",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Base board",
+      "Triangle",
+      "Square",
+      "Hexagon",
+      "Pattern piece"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Tessellation Kit — Shapes & Patterns lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "dienes_blocks",
+    "title": "Dienes Blocks — Place Value",
+    "category": "CBSE Maths Lab • Classes 3–5",
+    "kind": "placevalue",
+    "activity": "1,246",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Base",
+      "Thousands",
+      "Hundreds",
+      "Tens",
+      "Ones"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Dienes Blocks — Place Value lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "place_value",
+    "title": "Place Value / Number Cards",
+    "category": "CBSE Maths Lab • Classes 3–5",
+    "kind": "numbercards",
+    "activity": "3,425 = 3000 + 400 + 20 + 5",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Base",
+      "Thousands card",
+      "Hundreds card",
+      "Tens card",
+      "Ones card"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Place Value / Number Cards lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "probability_6_8",
+    "title": "Probability Kit — Experimental Probability",
+    "category": "CBSE Maths Lab • Classes 6–8",
+    "kind": "probability",
+    "activity": "3/5 = 60%",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Trial base",
+      "Outcome A",
+      "Outcome B",
+      "Outcome C",
+      "Outcome D"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Probability Kit — Experimental Probability lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "fraction_lab_6_8",
+    "title": "Fraction Kit — Equivalent Fractions",
+    "category": "CBSE Maths Lab • Classes 6–8",
+    "kind": "equivalent",
+    "activity": "1/2 = 2/4 = 4/8",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Whole/base",
+      "1/2",
+      "1/4",
+      "1/8 A",
+      "1/8 B"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Fraction Kit — Equivalent Fractions lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "triangle_6_8",
+    "title": "Triangle Kit — Sides & Angles",
+    "category": "CBSE Maths Lab • Classes 6–8",
+    "kind": "triangle",
+    "activity": "60° • 60° • 60°",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Vertex A",
+      "Vertex B",
+      "Vertex C",
+      "Reference",
+      "Reference"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Triangle Kit — Sides & Angles lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "integer_board",
+    "title": "Integer Board — Addition & Subtraction",
+    "category": "CBSE Maths Lab • Classes 6–8",
+    "kind": "integer",
+    "activity": "+3 − 5 = −2",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Number-line base",
+      "Moving integer",
+      "Operation marker",
+      "Reference",
+      "Reference"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Integer Board — Addition & Subtraction lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "unit_cubes_6_8",
+    "title": "Unit Cubes — Volume",
+    "category": "CBSE Maths Lab • Classes 6–8",
+    "kind": "cubes",
+    "activity": "3 × 2 × 2 = 12 units³",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Build base",
+      "Cube group A",
+      "Cube group B",
+      "Cube group C",
+      "Cube group D"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Unit Cubes — Volume lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "geometry_box_6_8",
+    "title": "Geometry Box — Constructions",
+    "category": "CBSE Maths Lab • Classes 6–8",
+    "kind": "geometry",
+    "activity": "Angle • Line • Circle",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Construction base",
+      "Point A",
+      "Point B",
+      "Point C",
+      "Point D"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Geometry Box — Constructions lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "geoboard",
+    "title": "Geoboard & Rubber Bands — Area",
+    "category": "CBSE Maths Lab • Classes 6–8",
+    "kind": "geoboard",
+    "activity": "Area ≈ 6 square units",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Board/base",
+      "Peg A",
+      "Peg B",
+      "Peg C",
+      "Peg D"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Geoboard & Rubber Bands — Area lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "graph_activity_6_8",
+    "title": "Graph Paper & Activity Materials",
+    "category": "CBSE Maths Lab • Classes 6–8",
+    "kind": "graph",
+    "activity": "(3, 4)",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Graph origin",
+      "Point",
+      "Point B",
+      "Point C",
+      "Point D"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Graph Paper & Activity Materials lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "probability_9_10",
+    "title": "Probability Kit — Compound Events",
+    "category": "CBSE Maths Lab • Classes 9–10",
+    "kind": "probability",
+    "activity": "P(A) = 0.50",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Trial base",
+      "Outcome A",
+      "Outcome B",
+      "Outcome C",
+      "Outcome D"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Probability Kit — Compound Events lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "mensuration",
+    "title": "Mensuration Kit — Area & Volume",
+    "category": "CBSE Maths Lab • Classes 9–10",
+    "kind": "mensuration",
+    "activity": "L=20 cm • W=10 cm • A=200 cm²",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Shape base",
+      "Length endpoint",
+      "Width endpoint",
+      "Reference",
+      "Reference"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Mensuration Kit — Area & Volume lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "measuring_jug",
+    "title": "Measuring Jug Set — Capacity",
+    "category": "CBSE Maths Lab • Classes 9–10",
+    "kind": "jug",
+    "activity": "750 mL",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Jug/base",
+      "Fill level",
+      "Reference",
+      "Reference",
+      "Reference"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Measuring Jug Set — Capacity lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "geometry_box_9_10",
+    "title": "Geometry Box — Theorem & Construction",
+    "category": "CBSE Maths Lab • Classes 9–10",
+    "kind": "geometry",
+    "activity": "Construction ready",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Construction base",
+      "Point A",
+      "Point B",
+      "Point C",
+      "Point D"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Geometry Box — Theorem & Construction lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "math_models_charts",
+    "title": "Mathematical Models / Charts — Formula Explorer",
+    "category": "CBSE Maths Lab • Classes 9–10",
+    "kind": "models",
+    "activity": "a² + b² = c²",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Model base",
+      "Parameter A",
+      "Parameter B",
+      "Parameter C",
+      "Parameter D"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Mathematical Models / Charts — Formula Explorer lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "graph_isometric",
+    "title": "Graph & Isometric Sheets — 3D Coordinates",
+    "category": "CBSE Maths Lab • Classes 9–10",
+    "kind": "graph3d",
+    "activity": "(2, 3, 4)",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Origin",
+      "X/Y/Z point",
+      "Reference",
+      "Reference",
+      "Reference"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Graph & Isometric Sheets — 3D Coordinates lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "dice_coins_cards",
+    "title": "Dice, Coins & Playing Cards — Probability",
+    "category": "CBSE Maths Lab • Classes 9–10",
+    "kind": "probability",
+    "activity": "Experimental P = 0.50",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Trial base",
+      "Outcome A",
+      "Outcome B",
+      "Outcome C",
+      "Outcome D"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Dice, Coins & Playing Cards — Probability lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "conic_sections",
+    "title": "Conic Section Models — Circle, Ellipse, Parabola",
+    "category": "CBSE Maths Lab • Classes 9–10",
+    "kind": "conic",
+    "activity": "Circle → Ellipse → Parabola",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Model base",
+      "Circle section",
+      "Ellipse section",
+      "Parabola section",
+      "Reference"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Conic Section Models — Circle, Ellipse, Parabola lesson using physical AprilTag markers and live AR feedback."
+  },
+  {
+    "id": "venn_diagrams",
+    "title": "Venn Diagram Models / Charts — Sets",
+    "category": "CBSE Maths Lab • Classes 9–10",
+    "kind": "venn",
+    "activity": "A ∩ B = 2",
+    "markerTags": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markerRoles": [
+      "Set canvas",
+      "Member A",
+      "Member B",
+      "Member C",
+      "Member D"
+    ],
+    "physicalAR": true,
+    "difficulty": "Beginner",
+    "description": "Interactive Venn Diagram Models / Charts — Sets lesson using physical AprilTag markers and live AR feedback."
+  }
+]

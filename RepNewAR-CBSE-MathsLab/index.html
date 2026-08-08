@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>AR Educational Platform</title>
+    <link rel="stylesheet" href="/src/ui/styles.css">
+</head>
+<body>
+    <!-- UI Overlay Container -->
+    <div id="ui-container"></div>
+
+    <!-- Start Screen -->
+    <div id="start-screen"></div>
+
+    <!-- Live Camera Video Feed -->
+    <video id="camera-feed" autoplay playsinline muted></video>
+
+    <!-- WebGL Canvas Container (added in future phases) -->
+    <div id="ar-canvas-container"></div>
+
+    <script type="module" src="/src/core/App.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "repnewar-cbse-maths-lab",
+  "version": "2.2.0",
+  "description": "Professional CBSE Maths Lab physical-kit AR platform using AprilTag 36h11 and Three.js.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js",
+    "test": "npm run verify",
+    "verify": "node scripts/verify-cbse.mjs",
+    "qa": "npm run verify",
+    "qa:report": "node scripts/qa-cbse.mjs",
+    "qa:all": "npm run verify && npm run qa:report && npm run build",
+    "release:check": "npm run verify && npm run build"
+  },
+  "keywords": [
+    "ar",
+    "webxr",
+    "three.js",
+    "education",
+    "apriltag"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "dependencies": {
+    "@tweenjs/tween.js": "^23.0.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "apriltag": "^2.0.3",
+    "vite": "^5.0.0"
+  }
+}

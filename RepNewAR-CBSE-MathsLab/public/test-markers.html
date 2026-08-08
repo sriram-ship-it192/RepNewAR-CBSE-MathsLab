@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Test Markers — Triangle & Cube</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            margin: 0;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #38bdf8;
+            margin-bottom: 8px;
+            font-size: 24px;
+        }
+        p.subtitle {
+            color: #94a3b8;
+            margin-top: 0;
+            margin-bottom: 24px;
+            text-align: center;
+            max-width: 600px;
+            font-size: 14px;
+        }
+        .marker-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            justify-content: center;
+            max-width: 900px;
+        }
+        .marker-card {
+            background: #1e293b;
+            border: 2px solid #334155;
+            border-radius: 16px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+            transition: border-color 0.2s ease;
+        }
+        .marker-card:hover {
+            border-color: #38bdf8;
+        }
+        .marker-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #38bdf8;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .marker-badge {
+            background: #0284c7;
+            color: white;
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+        .marker-desc {
+            font-size: 12px;
+            color: #94a3b8;
+            margin-bottom: 16px;
+        }
+        .marker-img-wrapper {
+            background: white;
+            padding: 16px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: inset 0 0 0 1px #cbd5e1;
+        }
+        .marker-img-wrapper img {
+            width: 220px;
+            height: 220px;
+            image-rendering: pixelated;
+        }
+        .actions {
+            margin-top: 32px;
+            display: flex;
+            gap: 16px;
+        }
+        .btn {
+            background: #0284c7;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            transition: background 0.2s ease;
+        }
+        .btn:hover {
+            background: #0369a1;
+        }
+        .btn-secondary {
+            background: #334155;
+        }
+        .btn-secondary:hover {
+            background: #475569;
+        }
+        @media print {
+            body {
+                background: white;
+                color: black;
+                padding: 0;
+            }
+            .subtitle, .actions {
+                display: none;
+            }
+            .marker-card {
+                background: white;
+                border: 1px solid #ccc;
+                box-shadow: none;
+                break-inside: avoid;
+            }
+            .marker-title {
+                color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>📐 WebAR Test AprilTag Markers</h1>
+    <p class="subtitle">
+        Point your camera at these AprilTag markers on your computer screen or phone screen to view the 3D shapes rendered in real-time WebAR!
+    </p>
+
+    <div class="marker-grid">
+        <!-- 1. TETRAHEDRON (TAG ID 0) -->
+        <div class="marker-card">
+            <div class="marker-title">
+                🔺 1. Tetrahedron
+                <span class="marker-badge">Tag ID 0</span>
+            </div>
+            <div class="marker-desc">3D Triangular Pyramid</div>
+            <div class="marker-img-wrapper">
+                <img src="/test-marker.svg" alt="Tag ID 0 - Tetrahedron" />
+            </div>
+        </div>
+
+        <!-- 2. CUBE (TAG ID 1) -->
+        <div class="marker-card">
+            <div class="marker-title">
+                🧊 2. Cube
+                <span class="marker-badge">Tag ID 1</span>
+            </div>
+            <div class="marker-desc">3D Box / Cube</div>
+            <div class="marker-img-wrapper">
+                <img src="/test-marker-1.svg" alt="Tag ID 1 - Cube" />
+            </div>
+        </div>
+
+        <!-- 3. SPHERE (TAG ID 2) -->
+        <div class="marker-card">
+            <div class="marker-title">
+                🔮 3. Sphere
+                <span class="marker-badge">Tag ID 2</span>
+            </div>
+            <div class="marker-desc">3D Smooth Sphere</div>
+            <div class="marker-img-wrapper">
+                <img src="/test-marker-2.svg" alt="Tag ID 2 - Sphere" />
+            </div>
+        </div>
+
+        <!-- 4. CYLINDER (TAG ID 3) -->
+        <div class="marker-card">
+            <div class="marker-title">
+                🛢️ 4. Cylinder
+                <span class="marker-badge">Tag ID 3</span>
+            </div>
+            <div class="marker-desc">3D Circular Cylinder</div>
+            <div class="marker-img-wrapper">
+                <img src="/textures/back.svg" alt="Tag ID 3 - Cylinder" />
+            </div>
+        </div>
+
+        <!-- 5. CONE (TAG ID 4) -->
+        <div class="marker-card">
+            <div class="marker-title">
+                📐 5. Cone
+                <span class="marker-badge">Tag ID 4</span>
+            </div>
+            <div class="marker-desc">3D Geometric Cone</div>
+            <div class="marker-img-wrapper">
+                <img src="/textures/left.svg" alt="Tag ID 4 - Cone" />
+            </div>
+        </div>
+
+        <!-- 6. TORUS (TAG ID 5) -->
+        <div class="marker-card">
+            <div class="marker-title">
+                🍩 6. Torus
+                <span class="marker-badge">Tag ID 5</span>
+            </div>
+            <div class="marker-desc">3D Donut Ring</div>
+            <div class="marker-img-wrapper">
+                <img src="/textures/right.svg" alt="Tag ID 5 - Torus" />
+            </div>
+        </div>
+
+        <!-- 7. OCTAHEDRON (TAG ID 6) -->
+        <div class="marker-card">
+            <div class="marker-title">
+                💎 7. Octahedron
+                <span class="marker-badge">Tag ID 6</span>
+            </div>
+            <div class="marker-desc">8-Faced Diamond Polyhedron</div>
+            <div class="marker-img-wrapper">
+                <img src="/tags/tag-6.svg" alt="Tag ID 6 - Octahedron" />
+            </div>
+        </div>
+
+        <!-- 8. DODECAHEDRON (TAG ID 7) -->
+        <div class="marker-card">
+            <div class="marker-title">
+                ⚽ 8. Dodecahedron
+                <span class="marker-badge">Tag ID 7</span>
+            </div>
+            <div class="marker-desc">12-Faced Pentagon Polyhedron</div>
+            <div class="marker-img-wrapper">
+                <img src="/tags/tag-7.svg" alt="Tag ID 7 - Dodecahedron" />
+            </div>
+        </div>
+
+        <!-- 9. ICOSAHEDRON (TAG ID 8) -->
+        <div class="marker-card">
+            <div class="marker-title">
+                ⭐️ 9. Icosahedron
+                <span class="marker-badge">Tag ID 8</span>
+            </div>
+            <div class="marker-desc">20-Faced Triangular Polyhedron</div>
+            <div class="marker-img-wrapper">
+                <img src="/tags/tag-8.svg" alt="Tag ID 8 - Icosahedron" />
+            </div>
+        </div>
+
+        <!-- 10. TORUS KNOT (TAG ID 9) -->
+        <div class="marker-card">
+            <div class="marker-title">
+                🥨 10. TorusKnot
+                <span class="marker-badge">Tag ID 9</span>
+            </div>
+            <div class="marker-desc">Complex 3D Twisted Knot</div>
+            <div class="marker-img-wrapper">
+                <img src="/tags/tag-9.svg" alt="Tag ID 9 - TorusKnot" />
+            </div>
+        </div>
+    </div>
+
+    <div class="actions">
+        <button class="btn" onclick="window.print()">🖨️ Print Markers</button>
+        <a class="btn btn-secondary" href="http://localhost:3000/" target="_blank">🚀 Open WebAR App</a>
+    </div>
+
+</body>
+</html>

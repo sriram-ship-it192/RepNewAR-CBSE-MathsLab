@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printable 3D Cardboard Cube Net (AprilTag 6-Face Set)</title>
+    <style>
+        @page {
+            size: A4 portrait;
+            margin: 10mm;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+            margin: 0;
+            padding: 16px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 20px;
+            margin: 0 0 4px 0;
+            color: #0284c7;
+        }
+        p.desc {
+            font-size: 12px;
+            color: #64748b;
+            margin: 0 0 16px 0;
+        }
+        /* Cross Net Layout for 10cm Cube */
+        .net-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+        .net-row {
+            display: flex;
+            justify-content: center;
+        }
+        .face-card {
+            width: 120px;
+            height: 120px;
+            border: 2px dashed #0284c7;
+            background: white;
+            padding: 6px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        .face-empty {
+            width: 120px;
+            height: 120px;
+            border: 2px solid transparent;
+        }
+        .face-label {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #0369a1;
+        }
+        .face-card img, .face-card svg {
+            width: 80px;
+            height: 80px;
+            image-rendering: pixelated;
+        }
+        .tab {
+            font-size: 9px;
+            color: #94a3b8;
+            background: #f1f5f9;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .controls {
+            margin-top: 24px;
+        }
+        .btn {
+            background: #0284c7;
+            color: white;
+            border: none;
+            padding: 10px 24px;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn:hover {
+            background: #0369a1;
+        }
+        @media print {
+            .controls, p.desc {
+                display: none;
+            }
+            body {
+                background: white;
+                padding: 0;
+            }
+            .face-card {
+                border-color: #333;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>📦 Printable 3D Cardboard Cube Net</h1>
+    <p class="desc">Print, cut along dashed lines, fold tabs, and tape into a physical 3D Cube with unique AprilTags on all 6 faces!</p>
+
+    <div class="net-container">
+        <!-- ROW 1: TOP -->
+        <div class="net-row">
+            <div class="face-empty"></div>
+            <div class="face-card">
+                <span class="face-label">TOP (Tag #0)</span>
+                <img src="/test-marker.svg" alt="Tag 0 - Top" />
+                <span class="tab">Fold Tab ⬆️</span>
+            </div>
+            <div class="face-empty"></div>
+        </div>
+
+        <!-- ROW 2: LEFT - FRONT - RIGHT - BACK -->
+        <div class="net-row">
+            <div class="face-card">
+                <span class="face-label">LEFT (Tag #4)</span>
+                <img src="/textures/left.svg" alt="Tag 4 - Left" />
+                <span class="tab">Fold Tab ⬅️</span>
+            </div>
+            <div class="face-card">
+                <span class="face-label">FRONT (Tag #2)</span>
+                <img src="/test-marker-2.svg" alt="Tag 2 - Front" />
+                <span class="tab">Center Face</span>
+            </div>
+            <div class="face-card">
+                <span class="face-label">RIGHT (Tag #5)</span>
+                <img src="/textures/right.svg" alt="Tag 5 - Right" />
+                <span class="tab">Fold Tab ➡️</span>
+            </div>
+            <div class="face-card">
+                <span class="face-label">BACK (Tag #3)</span>
+                <img src="/textures/back.svg" alt="Tag 3 - Back" />
+                <span class="tab">Fold Tab ➡️</span>
+            </div>
+        </div>
+
+        <!-- ROW 3: BOTTOM -->
+        <div class="net-row">
+            <div class="face-empty"></div>
+            <div class="face-card">
+                <span class="face-label">BOTTOM (Tag #1)</span>
+                <img src="/test-marker-1.svg" alt="Tag 1 - Bottom" />
+                <span class="tab">Fold Tab ⬇️</span>
+            </div>
+            <div class="face-empty"></div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button class="btn" onclick="window.print()">🖨️ Print Cardboard Cube Net</button>
+        <a class="btn" style="background: #334155; margin-left: 12px;" href="http://localhost:3000/" target="_blank">🚀 Launch WebAR App</a>
+    </div>
+
+</body>
+</html>
